@@ -42,6 +42,7 @@ public class TasksTest {
 		}
 	}
 	
+	@Test
 	public void naodeveSalvarTarefaSemDescricao() {
 		WebDriver driver = acessarAplicacao();
 		try {
